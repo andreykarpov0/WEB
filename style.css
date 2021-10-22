@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.taskMenu{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 800px;
+    background-color: #90AACB;
+    padding: 10px;
+    margin: 0.5%;
+    margin-right: 0%;
+    color: #FEF1E6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 15px;
+}
+.todoTasksCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#headerText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+    margin: 1%;
+}
+.taskText{
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 30px;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    background-color: #005F99;
+    border: 2px solid #FEF1E6;
+    border-radius: 22px;
+    padding: 10px;
+}
+.addbtn{
+    
+}
+.task:hover{ 
+    -moz-transition: all 0.07s linear;
+    -o-transition: all 0.07s linear;
+    -webkit-transition: all 0.07s linear;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+.hidden{
+    display: none;
+}
+.visible{
+    display: flex;
+}
+
+.popup{
+    position:fixed;
+}
+
+/*
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-webkit-transform: scaleY(5);
+-moz-transform: scaleY(5);
+-o-transform: scaleY(5);
+*/
